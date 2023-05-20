@@ -5,7 +5,7 @@ from random import seed
 from random import random
 
 # creat directory
-dataset_home = 'New Sample/'
+dataset_home = 'Real Sample V1/'
 subdirs = ['train/', 'test/']
 for subdir in subdirs:
     labeldirs = ['Clays/', 'Loams/', 'Reds/', 'Sandys/']
@@ -18,7 +18,7 @@ seed(1)
 # define ratio
 val_ratio = 0.2
 # copy training
-src_directory = 'Sample Edit/'
+src_directory = 'Prepare IMG/'
 for file in listdir(src_directory):
     src = src_directory + '/' + file
     dst_dir = 'train/'
